@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15E82F18435AD9A601FF693D6EA21EA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2E3C82A5A21534724A4145F71639AECC /* Pods-CSAlertAnimationStyle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 679923C630ED26C63AD84182A6B24AC3 /* Pods-CSAlertAnimationStyle-dummy.m */; };
+		4A4B14E818DCD00355AAE2A3BEB36060 /* zhPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = A274D4DFFA78303976F17475117CC919 /* zhPopupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C525AF95B29591C0B84844A8D96E2B53 /* zhPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = F219C9D5361729226AA3654C381B86D3 /* zhPopupController.m */; };
+		E310C76C1909A44FE556857955097B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E903A1C0B7FE74F6FB52A1297950E18A /* zhPopupController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 562871CF363A4C2C4ECBF115835E12D9 /* zhPopupController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78777CAF2B6432977C8D8A1B5FF7C935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 029239504994E36A31C3181134D4CC80;
+			remoteInfo = zhPopupController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1915035DBA9059D4F607A8DB52199417 /* Pods-CSAlertAnimationStyle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSAlertAnimationStyle-resources.sh"; sourceTree = "<group>"; };
+		1ECCABEF01EDF4DD169AC39A33F7A69C /* zhPopupController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = zhPopupController.xcconfig; sourceTree = "<group>"; };
+		4C725BCCC19F9A8160CCA7B1DF65D24D /* Pods-CSAlertAnimationStyle-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSAlertAnimationStyle-frameworks.sh"; sourceTree = "<group>"; };
+		562871CF363A4C2C4ECBF115835E12D9 /* zhPopupController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "zhPopupController-dummy.m"; sourceTree = "<group>"; };
+		5DA33F348C5233963E484CE46B0C457B /* Pods-CSAlertAnimationStyle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSAlertAnimationStyle.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		679923C630ED26C63AD84182A6B24AC3 /* Pods-CSAlertAnimationStyle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSAlertAnimationStyle-dummy.m"; sourceTree = "<group>"; };
+		77E7E0830DBF4AA2E90E9C0CE27F8D19 /* libPods-CSAlertAnimationStyle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CSAlertAnimationStyle.a"; path = "libPods-CSAlertAnimationStyle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CB57D7F41E3818371F377B8C8545CC /* Pods-CSAlertAnimationStyle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSAlertAnimationStyle-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A274D4DFFA78303976F17475117CC919 /* zhPopupController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zhPopupController.h; path = zhPopupController/Classes/zhPopupController.h; sourceTree = "<group>"; };
+		C077AF185D4C6E300ECD879E6780C22C /* libzhPopupController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libzhPopupController.a; path = libzhPopupController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B518C8DDC4BA02270B64467D113B27 /* Pods-CSAlertAnimationStyle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSAlertAnimationStyle-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCF955A44DD4232E5A9EA8A750234F66 /* Pods-CSAlertAnimationStyle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSAlertAnimationStyle.debug.xcconfig"; sourceTree = "<group>"; };
+		CE346044C49BF26B647ABBA3AC8724A7 /* zhPopupController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zhPopupController-prefix.pch"; sourceTree = "<group>"; };
+		F219C9D5361729226AA3654C381B86D3 /* zhPopupController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = zhPopupController.m; path = zhPopupController/Classes/zhPopupController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C2EE42C09F1BC87855A2F3C62499469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E310C76C1909A44FE556857955097B9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0644F269DFB6EC69C40A293D0E52CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E82F18435AD9A601FF693D6EA21EA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A24771465220EA856FEB7865E7E7B47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA0D435760BFE6438BDBAF6B5EB44DF4 /* zhPopupController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3051B9EBD7864AFD60E7D28992086EBE /* Pods-CSAlertAnimationStyle */ = {
+			isa = PBXGroup;
+			children = (
+				C4B518C8DDC4BA02270B64467D113B27 /* Pods-CSAlertAnimationStyle-acknowledgements.markdown */,
+				80CB57D7F41E3818371F377B8C8545CC /* Pods-CSAlertAnimationStyle-acknowledgements.plist */,
+				679923C630ED26C63AD84182A6B24AC3 /* Pods-CSAlertAnimationStyle-dummy.m */,
+				4C725BCCC19F9A8160CCA7B1DF65D24D /* Pods-CSAlertAnimationStyle-frameworks.sh */,
+				1915035DBA9059D4F607A8DB52199417 /* Pods-CSAlertAnimationStyle-resources.sh */,
+				CCF955A44DD4232E5A9EA8A750234F66 /* Pods-CSAlertAnimationStyle.debug.xcconfig */,
+				5DA33F348C5233963E484CE46B0C457B /* Pods-CSAlertAnimationStyle.release.xcconfig */,
+			);
+			name = "Pods-CSAlertAnimationStyle";
+			path = "Target Support Files/Pods-CSAlertAnimationStyle";
+			sourceTree = "<group>";
+		};
+		7D76B3504FE940560E26C68DD4969EAC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3051B9EBD7864AFD60E7D28992086EBE /* Pods-CSAlertAnimationStyle */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0A24771465220EA856FEB7865E7E7B47 /* Pods */,
+				9AC30201C1CD888F49E16B15526F7008 /* Products */,
+				7D76B3504FE940560E26C68DD4969EAC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC30201C1CD888F49E16B15526F7008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77E7E0830DBF4AA2E90E9C0CE27F8D19 /* libPods-CSAlertAnimationStyle.a */,
+				C077AF185D4C6E300ECD879E6780C22C /* libzhPopupController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E5D100E6EF124D207EDC7D1C663DCA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ECCABEF01EDF4DD169AC39A33F7A69C /* zhPopupController.xcconfig */,
+				562871CF363A4C2C4ECBF115835E12D9 /* zhPopupController-dummy.m */,
+				CE346044C49BF26B647ABBA3AC8724A7 /* zhPopupController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/zhPopupController";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FA0D435760BFE6438BDBAF6B5EB44DF4 /* zhPopupController */ = {
+			isa = PBXGroup;
+			children = (
+				A274D4DFFA78303976F17475117CC919 /* zhPopupController.h */,
+				F219C9D5361729226AA3654C381B86D3 /* zhPopupController.m */,
+				B1E5D100E6EF124D207EDC7D1C663DCA /* Support Files */,
+			);
+			name = zhPopupController;
+			path = zhPopupController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BF60CFD039EA9CBA8B396E7A7DE69D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4B14E818DCD00355AAE2A3BEB36060 /* zhPopupController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		029239504994E36A31C3181134D4CC80 /* zhPopupController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19AA97BF2A761A3CB19BD023A27F93E /* Build configuration list for PBXNativeTarget "zhPopupController" */;
+			buildPhases = (
+				F58D45CE9DEBCEAE18D8D09BC3DD9074 /* Sources */,
+				A0644F269DFB6EC69C40A293D0E52CC4 /* Frameworks */,
+				6BF60CFD039EA9CBA8B396E7A7DE69D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zhPopupController;
+			productName = zhPopupController;
+			productReference = C077AF185D4C6E300ECD879E6780C22C /* libzhPopupController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		535C40A2CA4FEE726DE04076F20EB1E1 /* Pods-CSAlertAnimationStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350C2DF18B20EC7500317A2EC3246DB1 /* Build configuration list for PBXNativeTarget "Pods-CSAlertAnimationStyle" */;
+			buildPhases = (
+				DE4871983FF5B9BB752AA59F0A4D22DE /* Sources */,
+				2C2EE42C09F1BC87855A2F3C62499469 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9011068C8FBFC82387A2DB110D8191A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-CSAlertAnimationStyle";
+			productName = "Pods-CSAlertAnimationStyle";
+			productReference = 77E7E0830DBF4AA2E90E9C0CE27F8D19 /* libPods-CSAlertAnimationStyle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9AC30201C1CD888F49E16B15526F7008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				535C40A2CA4FEE726DE04076F20EB1E1 /* Pods-CSAlertAnimationStyle */,
+				029239504994E36A31C3181134D4CC80 /* zhPopupController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE4871983FF5B9BB752AA59F0A4D22DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3C82A5A21534724A4145F71639AECC /* Pods-CSAlertAnimationStyle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58D45CE9DEBCEAE18D8D09BC3DD9074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E903A1C0B7FE74F6FB52A1297950E18A /* zhPopupController-dummy.m in Sources */,
+				C525AF95B29591C0B84844A8D96E2B53 /* zhPopupController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9011068C8FBFC82387A2DB110D8191A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = zhPopupController;
+			target = 029239504994E36A31C3181134D4CC80 /* zhPopupController */;
+			targetProxy = 78777CAF2B6432977C8D8A1B5FF7C935 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7AF822DEF359BF612E040865910C3BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA33F348C5233963E484CE46B0C457B /* Pods-CSAlertAnimationStyle.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C58A0520141DF76A22ADD82A565D3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECCABEF01EDF4DD169AC39A33F7A69C /* zhPopupController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/zhPopupController/zhPopupController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D9A94340ABC4CDE418E903EAB2A6220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECCABEF01EDF4DD169AC39A33F7A69C /* zhPopupController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/zhPopupController/zhPopupController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD6E30A31817784BCA216A950F4FC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF955A44DD4232E5A9EA8A750234F66 /* Pods-CSAlertAnimationStyle.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350C2DF18B20EC7500317A2EC3246DB1 /* Build configuration list for PBXNativeTarget "Pods-CSAlertAnimationStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD6E30A31817784BCA216A950F4FC30 /* Debug */,
+				7AF822DEF359BF612E040865910C3BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19AA97BF2A761A3CB19BD023A27F93E /* Build configuration list for PBXNativeTarget "zhPopupController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C58A0520141DF76A22ADD82A565D3E7 /* Debug */,
+				7D9A94340ABC4CDE418E903EAB2A6220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
