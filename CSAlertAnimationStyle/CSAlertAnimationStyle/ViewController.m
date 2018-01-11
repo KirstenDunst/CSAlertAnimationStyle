@@ -157,7 +157,6 @@
     overflyView.splitLine.hidden = YES;
     [overflyView reloadAllComponents];
     
-    
     CSOverflyButton *btn1 = [CSOverflyButton buttonWithTitle:@"忽略" handler:^(CSOverflyButton * _Nonnull button) {
         [self.zh_popupController dismiss];
     }];
