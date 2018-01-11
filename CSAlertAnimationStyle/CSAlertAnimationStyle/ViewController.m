@@ -129,7 +129,7 @@
     [attiTitle addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [text length])];//行距调整
     
     NSString *msg = @"123两国元首重点就当前朝鲜半岛局势交换了看法。习近平强调，中方坚定不移致力于实现朝鲜半岛无核化，维护国际核不扩散体系";
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 2; i++) {
         msg = [msg stringByAppendingString:msg];
     }
     
@@ -195,6 +195,7 @@
     };
     
     self.zh_popupController = [zhPopupController new];
+    //设置view的最终停留位置，默认情况下停留显示在视图中间位置
     self.zh_popupController.layoutType = zhPopupLayoutTypeTop;
     self.zh_popupController.allowPan = YES;
     
@@ -223,6 +224,7 @@
     };
     
     self.zh_popupController = [zhPopupController new];
+    //设置view的最终停留位置，默认情况下停留显示在视图中间位置
     self.zh_popupController.layoutType = zhPopupLayoutTypeLeft;
     self.zh_popupController.allowPan = YES;
     [self.zh_popupController presentContentView:sidebarView];
@@ -259,6 +261,7 @@
     };
     
     self.zh_popupController = [zhPopupController popupControllerWithMaskType:zhPopupMaskTypeWhiteBlur];
+    //设置内部的view能够允许拖动手势。默认的情况下是关闭的。
     self.zh_popupController.allowPan = YES;
     [self.zh_popupController presentContentView:fullView];
     
@@ -277,6 +280,7 @@
     };
     
     self.zh_popupController = [zhPopupController new];
+    //设置view的最终停留位置，默认情况下停留显示在视图中间位置
     self.zh_popupController.layoutType = zhPopupLayoutTypeBottom;
     [self.zh_popupController presentContentView:wallView];
 }
