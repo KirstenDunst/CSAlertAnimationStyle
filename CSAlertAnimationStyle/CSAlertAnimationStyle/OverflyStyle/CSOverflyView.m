@@ -94,7 +94,7 @@
                     constantWidth:constantWidth];
 }
 
-- (instancetype)initWithFlyImage:(UIImage *)flyImage
+- (instancetype) initWithFlyImage:(UIImage *)flyImage
                      highlyRatio:(CGFloat)highlyRatio
                  attributedTitle:(NSAttributedString *)attributedTitle
                attributedMessage:(NSAttributedString *)attributedMessage
@@ -146,6 +146,7 @@
         CGFloat imgHeight = imgWidth * factor;
         _flyImageView.size = CGSizeMake(constantWidth, constantWidth * factor);
         _flyImageView.y = -(imgHeight * self.highlyRatio);
+        NSLog(@">>>>>>>>>>>%f>>>%f>>>>>>>>>%f",-(imgHeight * self.highlyRatio),flyImage.size.height,flyImage.size.width);
     }
     
     _titleLabel.bottom = _flyImageView.bottom;
@@ -154,6 +155,7 @@
         _titleLabel.width = constantWidth;
         _titleLabel.y = _flyImageView.bottom + 5; // 间距扩大5
         _titleLabel.textAlignment = self.titleLabel.textAlignment;
+        NSLog(@">>>>>>>>>>>%f",[_titleLabel sizeThatFits:CGSizeMake(constantWidth, MAXFLOAT)].height);
     }
     
     _scrollView.bottom = _titleLabel.bottom;

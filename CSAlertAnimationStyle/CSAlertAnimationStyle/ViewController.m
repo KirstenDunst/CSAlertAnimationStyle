@@ -128,7 +128,7 @@
     [paragraphStyle setLineSpacing:7];
     [attiTitle addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [text length])];//行距调整
     
-    NSString *msg = @"     两国元首重点就当前朝鲜半岛局势交换了看法。习近平强调，中方坚定不移致力于实现朝鲜半岛无核化，维护国际核不扩散体系";
+    NSString *msg = @"123两国元首重点就当前朝鲜半岛局势交换了看法。习近平强调，中方坚定不移致力于实现朝鲜半岛无核化，维护国际核不扩散体系";
     for (int i = 0; i < 3; i++) {
         msg = [msg stringByAppendingString:msg];
     }
@@ -143,10 +143,10 @@
     
     CGFloat fac = 475; // 已知透明区域高度
     UIImage *image = [UIImage imageNamed:@"fire_arrow"];
-    
+    //view的大小默认在zhPopupController上面都是居中显示的。所以view的坐标x与y没有效果，只有size有效果
     CSOverflyView *overflyView = [[CSOverflyView alloc]
                                   initWithFlyImage:image
-                                  highlyRatio:(fac / image.size.height)
+                                  highlyRatio:(fac / image.size.height)  //这个比率一般要小于1.0来保证图片一部分在view上面切圆角的时候不会看起来突兀
                                   attributedTitle:attiTitle
                                   attributedMessage:attiMessage
                                   constantWidth:290];
