@@ -146,20 +146,20 @@
         CGFloat imgHeight = imgWidth * factor;
         _flyImageView.size = CGSizeMake(constantWidth, constantWidth * factor);
         _flyImageView.y = -(imgHeight * self.highlyRatio);
-        NSLog(@">>>>>>>>>>>%f>>>%f>>>>>>>>>%f",-(imgHeight * self.highlyRatio),flyImage.size.height,flyImage.size.width);
     }
     
     _titleLabel.bottom = _flyImageView.bottom;
     if (_titleLabel.attributedText.length) {
+//        MAXFLOAT通俗点说就是最大的数值，代表你的label的高是随着你label内容而变化，不用担心因为label内容过长而显示不全
         _titleLabel.size = [_titleLabel sizeThatFits:CGSizeMake(constantWidth, MAXFLOAT)];
         _titleLabel.width = constantWidth;
         _titleLabel.y = _flyImageView.bottom + 5; // 间距扩大5
         _titleLabel.textAlignment = self.titleLabel.textAlignment;
-        NSLog(@">>>>>>>>>>>%f",[_titleLabel sizeThatFits:CGSizeMake(constantWidth, MAXFLOAT)].height);
     }
     
     _scrollView.bottom = _titleLabel.bottom;
     if (_messageLabel.attributedText.length) {
+//        MAXFLOAT通俗点说就是最大的数值，代表你的label的高是随着你label内容而变化，不用担心因为label内容过长而显示不全
         _messageLabel.size = [_messageLabel sizeThatFits:CGSizeMake(constantWidth, MAXFLOAT)];
         _messageLabel.width = constantWidth;
         _messageLabel.textAlignment = self.messageLabel.textAlignment;
