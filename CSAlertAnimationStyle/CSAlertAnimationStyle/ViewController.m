@@ -49,6 +49,8 @@
         myCreateButton.tag = 100+i;
         [myCreateButton setBackgroundColor:[UIColor blueColor]];
         [myCreateButton setTintColor:[UIColor whiteColor]];
+//        使用Mac内自带的应用“字体册“来获得相应字体的PostScript名称
+        myCreateButton.titleLabel.font = [UIFont fontWithName:@"Zapfino" size:15.0f];
         [myCreateButton setTitle:self.arr[i] forState:UIControlStateNormal];
         [myCreateButton addTarget:self action:@selector(buttonChoose:) forControlEvents:UIControlEventTouchUpInside];
         [scroll addSubview:myCreateButton];
